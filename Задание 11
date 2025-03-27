@@ -1,0 +1,13 @@
+from math import *
+
+N=10+26+450
+i=ceil(log2(N))
+
+n=708
+Io=213*1024
+I=ceil(Io/n)*8
+
+L=I//i
+print(L)
+
+# Ответ: 274
