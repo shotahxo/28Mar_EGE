@@ -1,0 +1,14 @@
+def f(a,b,p):
+    if a==b:
+        return 1
+    if a>b:
+        return 0
+    if a<b:
+        if p=='C':
+            return f(a+3,b,'B')+f(a*4,b,'C')
+        else:
+            return f(a+2,b,'A')+f(a+3,b,'B')+f(a*4,b,'C')
+
+print(f(1,50,''))
+
+# Ответ: 484575
