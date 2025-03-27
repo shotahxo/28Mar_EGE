@@ -1,0 +1,15 @@
+def f7(n):
+    s=''
+    while n>0:
+        ost=n%7
+        s=str(ost)+s
+        n=n//7
+    return s
+
+for x in range(2030,0,-1):
+    a=7**170+7**100-x
+    a=f7(a)
+    if a.count('0')==71:
+        print(x)
+
+# Ответ: 2029
