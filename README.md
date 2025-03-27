@@ -12,7 +12,7 @@
 # №9
 ![image](https://github.com/user-attachments/assets/f130d24a-d9f7-46dc-bcf1-ac851005b38e)
 # №10
-
+![Image](https://github.com/user-attachments/assets/8f2c001c-6dec-41a9-9144-12bfc8e1efe0)
 # №14
 
 # №15
