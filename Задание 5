@@ -1,0 +1,27 @@
+def f12(n):
+	a='0123456789AB'
+	s=''
+	while n>0:
+		ost=n%12
+		s=a[ost]+s
+		n=n//12
+	return s
+
+mxx=-10**20
+mx=-10**20
+for n in range(143,10000):
+	a=f12(n)
+	if n%12==0:
+		a=a+a[-3:]
+	else:
+		ost=f12((n%12)*3)
+		a=ost+a
+	r=int(a,12)
+	if r<58000:
+		mxx=max(mxx,r)
+		if r==mxx:
+			mx=max(mx,n)
+		
+print(mx)
+		
+# Ответ: 971
